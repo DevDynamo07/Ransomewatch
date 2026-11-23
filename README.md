@@ -4,88 +4,50 @@
 
 RansomWatch is a cybersecurity awareness and educational platform designed to demonstrate how ransomware attacks work through a controlled and safe simulation environment.
 
-The project provides an interactive dashboard where users can understand ransomware attack stages, visualize simulated attack behavior, explore cybersecurity concepts, and learn preventive security practices.
+It provides an interactive dashboard where users can explore ransomware attack stages, visualize simulated attack behavior, understand cybersecurity concepts, and learn preventive security practices.
 
 Unlike real ransomware, RansomWatch does not encrypt actual user files, spread across systems, or perform malicious activities. All simulations are designed for educational purposes in a controlled environment.
 
 ---
 
-## 🚀 Key Features
+## 🚀 Features
 
-- **Interactive Dashboard:** A clean, minimalist interface displaying ransomware simulation information and security insights.
+- **Interactive Dashboard:** Displays ransomware simulation information and security insights.
 - **Safe Ransomware Simulation:** Demonstrates ransomware-like attack stages using simulated files and controlled operations.
-- **Attack Visualization:** Helps users understand how a ransomware attack progresses, from initial access to simulated file impact.
-- **Ransomware Awareness:** Educational information about ransomware, attack vectors, working mechanisms, and prevention techniques.
-- **Cybersecurity Chatbot:** An integrated chatbot that answers questions about ransomware, cybersecurity concepts, and project functionality.
-- **Security Awareness:** Learn best practices for identifying, preventing, and responding to ransomware threats.
-- **Minimalist UI:** Light monochromatic design with a simple and user-friendly interface.
-
----
+- **Attack Visualization:** Visualizes the progression of a ransomware attack.
+- **Ransomware Awareness:** Explains ransomware, attack vectors, working mechanisms, and prevention techniques.
+- **Integrated Cybersecurity Chatbot:** Helps users understand ransomware and cybersecurity concepts.
+- **Security Awareness:** Provides practical tips for identifying, preventing, and responding to ransomware threats.
+- **Minimalist UI:** Clean, light monochromatic design with an intuitive interface.
 
 ## 🎯 Project Objectives
 
-1. Understand the working mechanism of ransomware attacks.
+1. Understand how ransomware attacks operate.
 2. Demonstrate ransomware attack stages through safe simulations.
-3. Improve cybersecurity awareness among users.
-4. Explain common ransomware attack vectors and prevention techniques.
-5. Provide an interactive learning experience through visualizations and an integrated chatbot.
-
----
+3. Improve cybersecurity awareness.
+4. Explain common ransomware attack vectors.
+5. Promote preventive security practices.
 
 ## ⚙️ How It Works
 
 RansomWatch demonstrates a simplified ransomware attack lifecycle:
 
 1. **Initial Access:** Explains how attackers may gain access to a target system.
-2. **Execution:** Demonstrates simulated malicious activity in a controlled environment.
+2. **Execution:** Demonstrates simulated malicious activity.
 3. **File Discovery:** Identifies sample files within the simulation environment.
-4. **Simulated File Impact:** Demonstrates the effects of a ransomware attack without encrypting real user data.
+4. **Simulated File Impact:** Shows the effects of ransomware without encrypting real user data.
 5. **Awareness & Prevention:** Provides information about security measures and protection strategies.
 
-All operations are simulated and intended strictly for educational purposes.
-
----
+All operations are simulated for educational purposes.
 
 ## 🛠️ Technology Stack
 
-The project uses the following technologies:
-
-- **Frontend:** React.js
-- **Build Tool:** Vite
-- **Styling:** CSS
-- **Backend:** Python (if enabled in your project)
-- **Libraries:** Project-specific dependencies
-- **Version Control:** Git and GitHub
-
----
-
-## 📂 Project Structure
-
-```text
-RansomWatch/
-│
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── assets/
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── index.html
-│   └── package.json
-│
-├── backend/
-│   ├── main.py
-│   └── requirements.txt
-│
-├── README.md
-└── .gitignore
-```
-
-*Note: Adjust the folder structure according to the actual files in your repository.*
-
----
+- React.js
+- Vite
+- JavaScript
+- CSS
+- Python (if backend is included)
+- Git & GitHub
 
 ## 💻 Installation & Setup
 
@@ -93,13 +55,13 @@ RansomWatch/
 
 - Node.js
 - npm
-- Python (if the backend is included)
 - Git
+- Python (if backend is included)
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
+git clone https://github.com/devdynamo07/YOUR-REPOSITORY.git
 ```
 
 ### 2. Navigate to the Project
@@ -108,14 +70,14 @@ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
 cd YOUR-REPOSITORY
 ```
 
-### 3. Install Frontend Dependencies
+### 3. Install Dependencies
 
 ```bash
 cd frontend
 npm install
 ```
 
-### 4. Start the Frontend
+### 4. Run the Frontend
 
 ```bash
 npm run dev
@@ -131,7 +93,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
----
 
 ## 🔐 Safety & Ethical Considerations
 
@@ -143,20 +104,13 @@ RansomWatch is developed strictly for cybersecurity education and awareness.
 - No malware propagation or persistence mechanisms are implemented.
 - Simulations operate within a controlled educational environment.
 
-**The project must not be used for unauthorized or malicious activities.**
-
-
----
-
 ## 🔮 Future Enhancements
 
-- More detailed ransomware attack lifecycle visualizations.
-- Additional interactive cybersecurity learning modules.
+- Additional ransomware simulation scenarios.
+- Advanced attack lifecycle visualizations.
 - Expanded chatbot knowledge base.
-- More simulation scenarios.
-- Improved security awareness and incident response guidance.
-
----
+- More interactive cybersecurity learning modules.
+- Improved incident response guidance.
 
 ## 👨‍💻 Author
 
@@ -164,12 +118,14 @@ RansomWatch is developed strictly for cybersecurity education and awareness.
 
 B.Tech – Computer Science and Engineering
 
----
+GitHub: [@devdynamo07](https://github.com/devdynamo07)
 
 ## 📜 License
 
-This project is intended for educational and research purposes. You may use and modify it with appropriate attribution.
+This project is intended for educational and research purposes.
 
 ---
 
-⭐ If you find this project useful, consider giving the repository a star!
+⭐ If you find RansomWatch useful, consider giving this repository a star!
+
+**Understand. Simulate. Defend.**
